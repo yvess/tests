@@ -9,3 +9,6 @@ jspm: `$(npm bin)/jspm install`
 
 run http: `$(npm bin)/http-server`
 
+## works with older alpha
+
+install old alpha: `$(npm bin)/jspm install npm:ng-forward@0.0.1-alpha.4`
