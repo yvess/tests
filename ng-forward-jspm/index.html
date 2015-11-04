@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ng forward test jspm</title>
+
+</head>
+
+<body>
+  <div id="app-container">
+    <app ui-view></app>
+  </div>
+  <!-- build:js -->
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    if(location.hostname.match(/localhost|docker/)) {
+      System.trace = true;
+    }
+    System.import('reflect-metadata').then(function() {
+     System.import('index').catch(console.error.bind(console));
+    });
+  </script>
+  <!-- endbuild -->
+</body>
+</html>
