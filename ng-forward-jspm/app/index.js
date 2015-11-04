@@ -10,7 +10,7 @@ import AppFooter from './components/AppFooter.js';
   template: `
 <section class="app">
   <p>some tests</p>
-  <footer></footer>
+  <appfooter></appfooter>
 </section>
 `
 })
