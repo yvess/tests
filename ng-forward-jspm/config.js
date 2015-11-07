@@ -18,9 +18,12 @@ System.config({
     "angular-ui-router": "npm:angular-ui-router@0.2.15",
     "babel": "npm:babel-core@5.8.33",
     "babel-runtime": "npm:babel-runtime@5.8.29",
+    "console-polyfill": "npm:console-polyfill@0.2.2",
     "core-js": "npm:core-js@1.2.5",
     "ng-forward": "npm:ng-forward@0.0.1-alpha.7",
+    "polymer/mutationobservers": "github:polymer/mutationobservers@0.4.2",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
+    "webreflection/es6-collections": "github:webreflection/es6-collections@0.5.5",
     "zone.js": "npm:zone.js@0.5.8",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"

@@ -1,9 +1,5 @@
 # ng-forward-jspm test
 
-ng-forward seems to be broken with jspm in alpha.7, it worked with alpha.4
-
-error: `Error: View is not a function`
-
 ## install
 
 to checkout only this folder and not the whole repro, do
@@ -16,7 +12,10 @@ jspm: `$(npm bin)/jspm install`
 
 run http: `$(npm bin)/http-server`
 
-## works with older alpha
+## create build
 
-install old alpha: `$(npm bin)/jspm install npm:ng-forward@0.0.1-alpha.4`
+with: `$(npm bin)/jspm bundle index.js + core-js --minify --skip-source-maps`
 
+build is on: `http://localhost:8080/build.html`
+
+Note: You can run `build.html` also only with `npm install http-server`

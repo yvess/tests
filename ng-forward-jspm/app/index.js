@@ -3,9 +3,7 @@ import AppFooter from './components/AppFooter.js';
 
 @Component({
   selector: 'app',
-  bindings: ["ui.router"]
-})
-@View({
+  bindings: ["ui.router"],
   directives: [AppFooter],
   template: `
 <section class="app">

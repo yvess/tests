@@ -1,9 +1,7 @@
 import {Component, View} from 'ng-forward';
 
 @Component({
-  selector: 'appfooter'
-})
-@View({
+  selector: 'appfooter',
   template:
     `
     <p>my app footer</p>
